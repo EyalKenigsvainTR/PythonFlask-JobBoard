@@ -77,7 +77,7 @@ def test_app_review_post_request_check_module7():
     }
     date = {
         "targets/id": "date",
-        "value/args/s": "%m/%d/%Y",
+        "value/args/s": "%d/%m/%Y",
         "value/func/attr": "strftime",
         "value/func/value/func/attr": "now",
         "value/func/value/func/value/attr": "datetime",
